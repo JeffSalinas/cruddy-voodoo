@@ -10,19 +10,29 @@ This repo has a complete React build with various buttons to create, read, updat
 src/Constants/mockData.js
 ```
 
+<img src="./demo/cruddy_voodoo.png">
+
 ## Getting Started
 
-run live dev server (This will run your client bundle via RAM and automatically make changes/refresh your browser on save)
+install dev dependancies with 
+```
+npm install
+```
+
+## Scripts
+
+to run live dev server (This will run your client bundle via RAM and automatically make changes/refresh your browser on save)
 ```
 npm run dev
 ```
 
-build dev bundle
+to build dev bundle
 ```
 npm run build
 ```
 
-start server
+to start server
 ```
 npm start
 ```
+
