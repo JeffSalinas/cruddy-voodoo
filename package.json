@@ -1,15 +1,15 @@
 {
-  "name": "general_reacting",
+  "name": "cruddy-voodoo",
   "version": "1.0.0",
-  "description": "donuts, cats, react, and such",
-  "main": "app.js",
+  "description": "a cruddy backend mini-sprint",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --watch",
     "dev": "webpack-dev-server -d",
     "start": "nodemon server.js"
   },
-  "author": "Salinas",
+  "author": "Jeff Salinas",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.5",
