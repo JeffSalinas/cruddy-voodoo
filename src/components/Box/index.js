@@ -3,9 +3,10 @@ import DonutTemplate from '../DonutTemplate';
 import './styles.css';
 
 const Box = ({ name, donuts, handleDonutClick, nameId, isAdding}) => {
-  const title = `${name}${donuts.length >= 12 ? ' (Full)' : ''}`
+  const isFull = donuts.length >= 12;
+  const title = `${name}${isFull ? ' (Full)' : ''}`
   const handleClick = () => {
-    if (isAdding) {
+    if (isAdding && !isFull) {
       handleDonutClick(nameId);
     }
   }

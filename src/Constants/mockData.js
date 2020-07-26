@@ -1,49 +1,6 @@
-export const buttonOptions = [
-  {
-    name: 'Sprinkles',
-    action: 'sprinkles',
-  },
-  {
-    name: 'Filled',
-    action: 'filled'
-  },
-  {
-    name: 'Add',
-    action: 'addDonut'
-  },
-  {
-    name: 'Remove',
-    action: 'deleteDonut'
-  },
-  {
-    name: 'Flavor',
-    action: 'changeFlavor'
-  }
-];
-
-export const flavorOptions= [
-    {
-      name: 'Cherry',
-      action: 'cherry'
-    },
-    {
-      name: 'Glazed',
-      action: 'glazed'
-    },
-    {
-      name: 'Chocolate',
-      action: 'chocolate'
-    },
-    {
-      name: 'Maple',
-      action: 'maple'
-    }
-];
-
-
 export const mockData = {
   boxes: [{
-    name: "Zubair's Order",
+    name: "Zubair's Box",
     donuts: [
       {
         flavor: 'chocolate',
@@ -71,7 +28,7 @@ export const mockData = {
       },
       {
         flavor: 'maple',
-        sprinkles: true,
+        sprinkles: false,
         filled: false,
         donutId: '125'
       },
@@ -107,13 +64,13 @@ export const mockData = {
       },
       {
         flavor: 'maple',
-        sprinkles: true,
-        filled: false,
+        sprinkles: false,
+        filled: true,
         donutId: '1257'
       },
       {
         flavor: 'chocolate',
-        sprinkles: false,
+        sprinkles: true,
         filled: false,
         donutId: '1248'
       }
@@ -121,7 +78,7 @@ export const mockData = {
     nameId: 'r123'
   },
   {
-    name: "Kim's Order",
+    name: "Kim's Box",
     donuts: [
       {
         flavor: 'chocolate',
@@ -144,47 +101,47 @@ export const mockData = {
     ],
     nameId: 'r124'
   },
-    {
-      name: "Nik's Order",
-      donuts: [
-        {
-          flavor: 'chocolate',
-          sprinkles: false,
-          filled: true,
-          donutId: '123'
-        },
-        {
-          flavor: 'maple',
-          sprinkles: true,
-          filled: false,
-          donutId: '125'
-        },
-        {
-          flavor: 'glazed',
-          sprinkles: false,
-          filled: false,
-          donutId: '1288884'
-        },
-        {
-          flavor: 'chocolate',
-          sprinkles: false,
-          filled: true,
-          donutId: '1234653'
-        },
-        {
-          flavor: 'maple',
-          sprinkles: true,
-          filled: false,
-          donutId: '121115'
-        },
-        {
-          flavor: 'glazed',
-          sprinkles: false,
-          filled: false,
-          donutId: '1999924'
-        }
-      ],
-      nameId: 'r129'
-    }
+  {
+    name: "Nik's Box",
+    donuts: [
+      {
+        flavor: 'chocolate',
+        sprinkles: false,
+        filled: true,
+        donutId: '123'
+      },
+      {
+        flavor: 'maple',
+        sprinkles: true,
+        filled: false,
+        donutId: '125'
+      },
+      {
+        flavor: 'glazed',
+        sprinkles: false,
+        filled: false,
+        donutId: '1288884'
+      },
+      {
+        flavor: 'chocolate',
+        sprinkles: false,
+        filled: true,
+        donutId: '1234653'
+      },
+      {
+        flavor: 'maple',
+        sprinkles: true,
+        filled: false,
+        donutId: '121115'
+      },
+      {
+        flavor: 'glazed',
+        sprinkles: true,
+        filled: false,
+        donutId: '1999924'
+      }
+    ],
+    nameId: 'r129'
+  }
   ]
 };

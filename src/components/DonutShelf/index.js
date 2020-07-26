@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {mockData, flavorOptions, buttonOptions } from '../Constants';
+import { flavorOptions, buttonOptions } from '../../Constants';
+import { mockData } from '../../Constants/mockData';
 import Box from '../Box';
 import ButtonOptions from '../ButtonOptions';
-
 import './styles.css';
 
 class DonutShelf extends Component {
@@ -45,7 +45,7 @@ class DonutShelf extends Component {
         console.log('nom nom!')
         break;
       case 'deleteDonut':
-        // donut with donutId should be deleted
+        // delete donut from DB based on donutId
         console.log(":'(")
         break;
       default:
