@@ -1,0 +1,19 @@
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100px;
+  height: 210px;
+  border: 5px solid Black;
+  padding: 10px;
+  margin: 0 10px
+}
+
+.selected {
+  background-color: red;
+  font-weight: bold;
+}
+
+button {
+  margin: 5px;
+}

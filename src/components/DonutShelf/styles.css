@@ -1,0 +1,8 @@
+.shelfContainer {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 230px;
+  border: 5px solid Black;
+  padding: 0 10px;
+};

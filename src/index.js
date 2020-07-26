@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import DonutShelf from './components/DonutShelf';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<DonutShelf />, document.getElementById('root'));
